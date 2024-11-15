@@ -1,0 +1,57 @@
+html {
+    scroll-behavior: smooth;
+  }
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    cursor: auto;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    background-image: url('/img/background.png');
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: cover;    
+}
+
+
+.sidebar {
+    position: fixed;
+    width: 20%;
+    margin: 0;
+    margin-top: 64px; 
+}
+.sidebar a.active {
+    padding: 10px 0 10px 20px; 
+    border-radius: 8px; 
+}
+
+.sb-news, .sb-sale, .sb-katalog, .sb-my-orders, .sb-delivery, .sb-contacts {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 8px;
+    font-size: 16px;  
+    text-align: left; 
+    height: 38px; 
+    border: none;
+    border-radius: 6px;  
+    background: grey;
+    
+}
+
+.sb-news-icon, .sb-sale-icon, .sb-katalog-icon, .sb-my-orders-icon, .sb-delivery-icon, .sb-contacts-icon {
+    width: 22px; 
+    margin-left: 16px; 
+    margin-right: 10px;
+    vertical-align: middle;
+    margin-bottom: 2px;
+}
+.sb-forward {
+    width: 18px;
+    display: block;
+    margin-left: auto;
+    margin-top: -22px;
+}
+

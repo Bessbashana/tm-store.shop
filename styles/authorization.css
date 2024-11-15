@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.row {
+    background: inherit;
+    justify-content: center;
+    position: absolute;
+    display: flex;
+    width: 40%;
+    height: 60%;
+    padding: 3% 50px;
+    border: 2px solid #ffae0000;
+    box-shadow: 0 0 12px#e6e6e6;
+    border-radius: 8px; 
+    margin-left: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    align-items: center; 
+    backdrop-filter: blur(10px); 
+    z-index: 10;
+}
+.row::before{ 
+    background: inherit; 
+    position: absolute;
+    left: -25px;  
+    right: 0;
+    top: -25px;   
+    bottom: 0;
+    box-shadow: 0 0 0 200px rgba(185, 185, 185, 0);
+    
+}
+
+.col-register {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.col-login{
+    margin: -5% auto 0 auto;
+}
+
+.btn-return-reg {
+    display: block;
+    position: relative;
+    margin-top: 30%;
+    justify-items: center;
+    background: none;
+    border: none;
+    color: rgb(202, 202, 202);
+}
+
+.btn-return-log{
+    display: block;
+    position: relative;
+    margin-top: 30%;
+    justify-items: center;
+    background: none;
+    border: none;
+    color: rgb(202, 202, 202);
+}
+
+.form-control{
+    width: 200px;
+    padding: 8px;
+    margin-bottom: 5px;
+    margin-top: 5%;
+    border-radius: 6px;
+    border-color: #ffae00;
+    outline: none;
+}
+
+.header-form-reg, .header-form-log{
+    display: block;
+    color: whitesmoke;
+    text-shadow: 1px 1px 10px#0f0f0f;
+    margin-bottom: 10%;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+}
+
+.btn-success-reg {
+    display: block;
+    margin: auto;
+    margin-top: 20%;
+    padding: 8px 18px;
+    border-radius: 6px; 
+    transition-duration: 0.5s;
+    background-color: #ffae00;
+    border-color: #ffae00;
+}
+
+.btn-success-reg:hover{
+    background-color: dodgerblue;
+    border-color: dodgerblue;
+    transition-duration: 1s;
+}
+
+.btn-success-log {
+    display: block;
+    margin: auto;
+    margin-top: 30%;
+    padding: 8px 18px;
+    border-radius: 6px; 
+    transition-duration: 0.5s;
+    background-color: #ffae00;
+    border-color: #ffae00;
+}
+
+.btn-success-log:hover{
+    background-color: dodgerblue;
+    border-color: dodgerblue;
+    transition-duration: 1s;
+}

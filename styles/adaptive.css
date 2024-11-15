@@ -1,0 +1,121 @@
+
+@media screen and (min-width: 1920px){
+	html, body{
+		width: 1920px;
+    	margin: 0 auto;
+	}
+	.sidebar {
+		width: 15%;
+	}
+	
+}
+
+
+@media screen and (min-width: 1024px){
+	.menu {
+		display: none;
+	}
+
+	.sidebar {
+		margin-left: 20px;
+	}
+}
+
+
+@media screen and (max-width: 1023px){
+html, body{
+	margin: 0;
+    padding: 0;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.sidebar {
+	display: none;
+	transform: translateX(-200%);
+}
+
+.header-nav{
+	position: absolute;
+	position: fixed;
+	z-index: 1000;
+}
+/*.logo-link{
+	position: absolute;
+	margin-left: 50px;
+	width: 150px;
+	margin-right: 60px;
+}
+*/
+.logo-img{
+	display: none;
+}
+
+.search {
+	width: 160px;
+}
+
+.header-nav .nav-shop-cart-btn, .nav-shop-cart-btn-number {
+	display: none;
+}
+
+.header-nav .nav-account-btn, .nav-account-icon {
+	width: 44px;
+	height: 32px;
+	margin-right: 5px;
+	margin-left: 3px
+}
+
+.row {
+	display: block;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	overflow-y: auto;
+	flex-wrap: wrap;
+	min-width: 90%;
+	width: auto;
+	height: 85%;
+	margin-top: 5%;
+	margin-bottom: 0;
+}
+
+
+.row::-webkit-scrollbar { 
+	width: 0;
+}
+
+.row input {
+	
+	width: 100%;
+}
+.col-register{
+	justify-content: center;
+	margin-left: auto;
+}
+.col-login{
+	justify-content: center;
+}
+.btn-success-log{
+	margin-top: 20%;
+}
+
+}
+
+@media screen and (min-width: 612px){
+	.col-register{
+		justify-content: center;
+		margin-left: auto;
+	}
+	.col-login{
+		justify-content: center;
+		align-self: flex-start;
+		margin-top: 108px;
+		margin-right: auto;
+	}
+}

@@ -1,0 +1,117 @@
+html {
+    scroll-behavior: smooth;
+  }
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    cursor: auto;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    background-image: url('/img/background.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;    
+}
+
+button{
+    cursor: pointer; 
+}
+input {
+    outline:none;
+}
+
+.link1 {
+    text-decoration: none;
+}
+
+.header-nav {
+    display: block;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 60px;
+    background: linear-gradient(to left,#747472 ,#1f1e1e);
+    position: fixed;
+    z-index: 99;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.logo-img {
+    margin-left: 42px;
+    height: 92px;
+    margin-top: 5px;
+    
+}
+
+.search{
+    display: block;
+    margin-left: auto;
+    padding: 12px;
+    outline: none;
+    border-color: #5f5f5f36;
+    border-radius: 12px;
+    margin-top: 15px;
+    height: 24px;
+  }
+  .search :active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+  }
+  
+
+.searchNav-icon {
+    width: 21px;
+    margin-left: 18px;
+}
+.nav-shop-cart-btn{
+    display: block;
+    margin-left: 0;
+    width: 38px;
+    height: 30px;
+    margin-top: 12px;
+    background: none;
+    border: none;  
+}
+
+.nav-shop-cart-icon {
+    width: 28px;
+    height: 28px;
+    margin-right: 35px;
+    padding-bottom: -100px;
+}
+.nav-shop-cart-btn-number {
+    margin-top: 5px;
+    margin-left: -16px;
+    border: none;
+    background: none;
+}
+.nav-shop-cart-number {
+    margin-left: -16.3px;
+    font-size: 10px;
+}
+.nav-shop-cart-number-bg {
+    margin-bottom: -6px;
+    width: 40px;
+    height: 20px;
+    margin-left: -14px;
+}
+
+.nav-account-btn {
+    display: block;
+    width: 52px;
+    height: 36px;
+    margin-right: 38px;
+    margin-left: 32px;
+    margin-top: 12px;
+    background: none;
+    border: none;
+}
+.nav-account-icon{
+    width: 36px;
+    height: 36px;
+}
