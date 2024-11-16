@@ -15,6 +15,6 @@ include 'includes/products.php';
     <title>TM Store</title>
 </head>
 <body>
-    Тррр
+    
 </body>
 </html>
